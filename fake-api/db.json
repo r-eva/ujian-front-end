@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "seto",
+      "password": "password",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "budi",
+      "password": "password",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "anton",
+      "password": "password",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "dini",
+      "password": "cekcek",
+      "email": "dini@mail.com",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "bintang",
+      "password": "password",
+      "email": "bintang@mail.com",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "karno",
+      "password": "password",
+      "email": "karno@mail.com",
+      "role": "user",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nama": "Kaos Polos Aja",
+      "harga": 20000,
+      "category": "polos",
+      "discount": "15",
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "The Dark Knight",
+      "harga": 40000,
+      "category": "sablon",
+      "discount": "20",
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg"
+    },
+    {
+      "nama": "Epic Comeback",
+      "harga": 30000,
+      "discount": 20,
+      "category": "sablon",
+      "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+      "deskripsi": "Kaos Terbaik",
+      "id": 3
+    },
+    {
+      "nama": "Kopi",
+      "harga": 18000,
+      "discount": 0,
+      "category": "Minuman",
+      "img": "https://awsimages.detik.net.id/community/media/visual/2019/06/25/4b2e9e97-a47e-49d3-8e20-26074032b26f_11.jpeg?w=700&q=80",
+      "deskripsi": "Kopi Kenangan Mantan",
+      "id": 4
+    },
+    {
+      "nama": "Susu",
+      "harga": 10000,
+      "discount": 10,
+      "category": "Minuman",
+      "img": "https://cf.shopee.co.id/file/6a5d7a2662bccb6f2a1d5869e2019925",
+      "deskripsi": "Susu Milo Enak",
+      "id": 5
+    },
+    {
+      "nama": "Laptop",
+      "harga": 2000000,
+      "discount": 10,
+      "category": "Elektronik",
+      "img": "https://static.bhphoto.com/images/images2500x2500/1541502500_1436975.jpg",
+      "deskripsi": "Laptop Asus Ramnya Gede",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "nama": "TV",
+      "harga": 3000000,
+      "category": "Elektronik",
+      "discount": 3,
+      "deskripsi": "TV 18 Inc",
+      "img": "https://image.made-in-china.com/2f0j00odvaSWhnPFkj/17-Inch-Color-LCD-LED-TV-Smart-TV-with-USB-HD-VGA-PC-AV.jpg"
+    },
+    {
+      "nama": "Bikini",
+      "harga": 400000,
+      "discount": 50,
+      "category": "Swimsuit",
+      "img": "https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2019/07/01/goods-first-img/1564536847650528356.jpg",
+      "deskripsi": "Red Flower",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "productId": 2,
+      "userId": 6,
+      "quantity": 1,
+      "price": 40000,
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+      "discount": "20",
+      "productName": "The Dark Knight",
+      "id": 7
+    },
+    {
+      "productId": 5,
+      "userId": 6,
+      "quantity": 1,
+      "price": 10000,
+      "img": "https://cf.shopee.co.id/file/6a5d7a2662bccb6f2a1d5869e2019925",
+      "discount": 10,
+      "productName": "Susu",
+      "id": 8
+    },
+    {
+      "productId": 1,
+      "userId": 7,
+      "quantity": 2,
+      "price": 20000,
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "discount": "15",
+      "productName": "Kaos Polos Aja",
+      "id": 18
+    }
+  ],
+  "history": [
+    {
+      "transactionDate": "06/09/2019 14:4:2",
+      "userId": 2,
+      "totalBelanjaan": 34000,
+      "namaPenerima": "Si Manis",
+      "alamatPenerima": "Alamatnya Dimana Aja",
+      "kodePosPenerima": "5498",
+      "cart": [
+        {
+          "productId": 1,
+          "userId": 2,
+          "quantity": 2,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Aja",
+          "id": 22
+        }
+      ],
+      "id": 1
+    },
+    {
+      "transactionDate": "06/09/2019 14:4:55",
+      "userId": 3,
+      "totalBelanjaan": 120000,
+      "namaPenerima": "Istri Budi",
+      "alamatPenerima": "Alamatnya di Rumahnya",
+      "kodePosPenerima": "9875",
+      "cart": [
+        {
+          "productId": 3,
+          "userId": 3,
+          "quantity": 5,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 22
+        }
+      ],
+      "id": 2
+    },
+    {
+      "transactionDate": "06/09/2019 14:6:0",
+      "userId": 5,
+      "totalBelanjaan": 3818000,
+      "namaPenerima": "Dini Maimunah",
+      "alamatPenerima": "Garden Grove Raya",
+      "kodePosPenerima": "4567",
+      "cart": [
+        {
+          "productId": 6,
+          "userId": 5,
+          "quantity": 2,
+          "price": 2000000,
+          "img": "https://static.bhphoto.com/images/images2500x2500/1541502500_1436975.jpg",
+          "discount": 10,
+          "productName": "Laptop",
+          "id": 21
+        },
+        {
+          "productId": 4,
+          "userId": 5,
+          "quantity": 1,
+          "price": 18000,
+          "img": "https://awsimages.detik.net.id/community/media/visual/2019/06/25/4b2e9e97-a47e-49d3-8e20-26074032b26f_11.jpeg?w=700&q=80",
+          "discount": 0,
+          "productName": "Kopi",
+          "id": 22
+        },
+        {
+          "productId": 8,
+          "userId": 5,
+          "quantity": 1,
+          "price": 400000,
+          "img": "https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2019/07/01/goods-first-img/1564536847650528356.jpg",
+          "discount": 50,
+          "productName": "Bikini",
+          "id": 23
+        }
+      ],
+      "id": 3
+    },
+    {
+      "transactionDate": "06/09/2019 14:7:47",
+      "userId": 4,
+      "totalBelanjaan": 91000,
+      "namaPenerima": "Ando Siregar",
+      "alamatPenerima": "Jalan Raya Besar",
+      "kodePosPenerima": "5467",
+      "cart": [
+        {
+          "productId": 2,
+          "userId": 4,
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": "20",
+          "productName": "The Dark Knight",
+          "id": 1
+        },
+        {
+          "productId": 5,
+          "userId": 4,
+          "quantity": 1,
+          "price": 10000,
+          "img": "https://cf.shopee.co.id/file/6a5d7a2662bccb6f2a1d5869e2019925",
+          "discount": 10,
+          "productName": "Susu",
+          "id": 19
+        },
+        {
+          "productId": 4,
+          "userId": 4,
+          "quantity": 1,
+          "price": 18000,
+          "img": "https://awsimages.detik.net.id/community/media/visual/2019/06/25/4b2e9e97-a47e-49d3-8e20-26074032b26f_11.jpeg?w=700&q=80",
+          "discount": 0,
+          "productName": "Kopi",
+          "id": 20
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "wishlist": [
+    
+  ]
+}
